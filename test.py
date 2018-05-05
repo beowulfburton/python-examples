@@ -1,4 +1,9 @@
-def func1():
-	print('Hello, world!')
+import math
+import random
 
-func1()
+def func1():
+ arr = [[0] * 10] * 10
+ print(arr)
+	
+random.seed(0)
+print(random.randrange(0,10,2))
